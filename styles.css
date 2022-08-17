@@ -22,4 +22,43 @@
 
 /* Box 1 Styling */
 
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: navy;
+    padding: 150px;
+}
+
+.leftContainer {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.bigText {
+    font-size: 32px;
+    font-weight: 700px;
+    color: white;
+}
+
+.smallText {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.signUpButton {
+    padding: 10px;
+    color: white;
+    background-color: lightblue;
+    max-width: fit-content;
+}
+
+.box1 img {
+    width: 400px;
+    height: 200px;
+}
 
