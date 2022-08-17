@@ -97,3 +97,26 @@
     width: 150px;
     height: 150px;
 }
+
+/* Box/Section 3 Styling */
+
+.box3 {
+    background-color: lightgray;
+    padding: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote {
+    font-size: 32px;
+    color: darkgray;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    text-align: right;
+    font-size: 18px;
+    color: navy;
+    font-weight: 700;
+}
+
