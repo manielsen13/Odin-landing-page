@@ -20,7 +20,7 @@
     font-size: 20px;
 }
 
-/* Box 1 Styling */
+/* Box/Section 1 Styling */
 
 .box1 {
     display: flex;
@@ -37,6 +37,7 @@
     flex-wrap: wrap;
     gap: 10px;
     max-width: 400px;
+    min-width: 200px;
 }
 
 .bigText {
@@ -62,3 +63,37 @@
     height: 200px;
 }
 
+/* Box/Section 2 Styling */
+
+.box2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.box2Title {
+    color: navy;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardList {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
