@@ -1,9 +1,12 @@
 /* Header Styling */
+
 .header {
     display: flex;
-    background-color: navy;
-    padding: 20px;
+    background-color: #1f2937;
+    padding: 35px;
     align-items: center;
+    justify-content: space-around;
+    
 }
 .header ul {
     display: flex;
@@ -13,11 +16,16 @@
     gap: 20px;
     color: lightgray;
 }
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
 .header .logo {
-    margin-right: auto;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 /* Box/Section 1 Styling */
@@ -26,41 +34,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: navy;
-    padding: 150px;
+    background-color:  #1f2937;
+    padding: 100px;
+    gap: 15px;
 }
 
 .leftContainer {
-    padding-right: 40px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     max-width: 400px;
     min-width: 200px;
 }
 
 .bigText {
-    font-size: 32px;
-    font-weight: 700px;
-    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
 .smallText {
-    font-size: 14px;
-    color: lightgray;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .signUpButton {
     padding: 10px;
     color: white;
-    background-color: lightblue;
-    max-width: fit-content;
+    background-color: #3882F6;
+    width: 120px;
+    border-style: none;
+    border-radius: 8px;
 }
 
 .box1 img {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 250px;
 }
 
 /* Box/Section 2 Styling */
@@ -76,47 +86,52 @@
 }
 
 .box2Title {
-    color: navy;
-    font-size: 24px;
-    font-weight: 700;
+    color:  #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .cardList {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
     max-width: 150px;
     text-align: center;
-
 }
 
 .card img {
     width: 150px;
     height: 150px;
+    margin-bottom: 10px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
 }
 
 /* Box/Section 3 Styling */
 
 .box3 {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     padding: 120px;
     padding-left: 20%;
     padding-right: 20%;
 }
 
 .quote {
-    font-size: 32px;
-    color: darkgray;
+    font-size: 36px;
+    color: #1F2937;
     font-style: italic;
 }
 
 .quoteAuthor {
     text-align: right;
     font-size: 18px;
-    color: navy;
+    color:  #1f2937;
     font-weight: 700;
 }
 
@@ -133,13 +148,14 @@
 .ctaPopUp {
     display: flex;
     color: white;
-    background-color: lightblue;
+    background-color: #3882F6;
     justify-content: center;
     align-items: center;
     gap: 50px;
     padding: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
+    border-radius: 5px;
 }
 
 .ctaHeader {
@@ -153,15 +169,18 @@
 
 .ctaButton {
     color: white;
-    background-color: lightblue;
+    background-color: #3882F6;
     border-color: white;
     border-style: solid;
+    padding: 7px;
+    border-radius: 5px;
 }
+
+/* Footer Styling */
 
 .footer {
     padding: 30px;
     text-align: center;
     color: white;
-    background-color: navy;
-
+    background-color: #1f2937;
 }
